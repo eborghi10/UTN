@@ -1,0 +1,597 @@
+# depslib dependency file v1.0
+1417107793 source:/home/pointbach/Escritorio/OpenCV_Ejemplos_2012/pepe/main.cpp
+	<opencv2/highgui/highgui.hpp>
+
+1397211326 /usr/local/include/opencv/cv.hpp
+	<cv.h>
+
+1397211326 /usr/local/include/opencv/cv.h
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/video/tracking.hpp"
+	"opencv2/features2d/features2d.hpp"
+	"opencv2/flann/flann.hpp"
+	"opencv2/calib3d/calib3d.hpp"
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/legacy/compat.hpp"
+	"opencv2/core/internal.hpp"
+
+1397211326 /usr/local/include/opencv/cxcore.hpp
+	<cxcore.h>
+
+1397211326 /usr/local/include/opencv/cxcore.h
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+
+1397211326 /usr/local/include/opencv/highgui.h
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui_c.h"
+	"opencv2/highgui/highgui.hpp"
+
+1417109803 source:/home/pointbach/Escritorio/OpenCV_Ejemplos_2012/face/main.cpp
+	<stdio.h>
+	<vector>
+	<string>
+	<iostream>
+	"opencv2/opencv.hpp"
+	"detectObject.h"
+	"preprocessFace.h"
+	"recognition.h"
+	"ImageUtils.h"
+
+1417114681 source:/home/pointbach/Escritorio/OpenCV_Ejemplos_2012/face/detectObject.cpp
+	"detectObject.h"
+
+1417116101 /home/pointbach/Escritorio/OpenCV_Ejemplos_2012/face/detectObject.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1417116321 source:/home/pointbach/Escritorio/OpenCV_Ejemplos_2012/face/ImageUtils_0.7.cpp
+	"ImageUtils.h"
+
+1417110102 /home/pointbach/Escritorio/OpenCV_Ejemplos_2012/face/ImageUtils.h
+	<cv.h>
+	<cxcore.h>
+	<highgui.h>
+	<stdio.h>
+	<conio.h>
+	<direct.h>
+	<stdio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<vector>
+	<string>
+	<iostream>
+
+1417116321 /home/pointbach/Escritorio/OpenCV_Ejemplos_2012/face/preprocessFace.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1417116321 /home/pointbach/Escritorio/OpenCV_Ejemplos_2012/face/recognition.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1417114681 source:/home/pointbach/Escritorio/OpenCV_Ejemplos_2012/face/preprocessFace.cpp
+	"detectObject.h"
+	"preprocessFace.h"
+	"ImageUtils.h"
+
+1417114681 source:/home/pointbach/Escritorio/OpenCV_Ejemplos_2012/face/recognition.cpp
+	"recognition.h"
+	"ImageUtils.h"
+
+1417313622 source:/home/pointbach/Escritorio/OpenCV_Ejemplos_2012/Face1/detectObject.cpp
+	"detectObject.h"
+	"cv.h"
+	"highgui.h"
+	<stdio.h>
+
+1417126519 /home/pointbach/Escritorio/OpenCV_Ejemplos_2012/Face1/detectObject.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1417124950 source:/home/pointbach/Escritorio/OpenCV_Ejemplos_2012/Face1/ImageUtils_0.7.cpp
+	"ImageUtils.h"
+
+1417124950 /home/pointbach/Escritorio/OpenCV_Ejemplos_2012/Face1/ImageUtils.h
+	<cv.h>
+	<cxcore.h>
+	<highgui.h>
+	<stdio.h>
+	<conio.h>
+	<direct.h>
+	<stdio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<vector>
+	<string>
+	<iostream>
+
+1417397689 source:/home/pointbach/Escritorio/OpenCV_Ejemplos_2012/Face1/main.cpp
+	<stdlib.h>
+	<errno.h>
+	<string.h>
+	<sys/types.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/wait.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<stdio.h>
+	<vector>
+	<string>
+	<iostream>
+	"opencv2/opencv.hpp"
+	"preprocessFace.h"
+	"recognition.h"
+	"ImageUtils.h"
+
+1417116321 /home/pointbach/Escritorio/OpenCV_Ejemplos_2012/Face1/preprocessFace.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1417116321 /home/pointbach/Escritorio/OpenCV_Ejemplos_2012/Face1/recognition.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1417362938 source:/home/pointbach/Escritorio/OpenCV_Ejemplos_2012/Face1/preprocessFace.cpp
+	"detectObject.h"
+	"preprocessFace.h"
+	"ImageUtils.h"
+
+1417114681 source:/home/pointbach/Escritorio/OpenCV_Ejemplos_2012/Face1/recognition.cpp
+	"recognition.h"
+	"ImageUtils.h"
+
+1417313622 source:/home/pointbach/Escritorio/Server/detectObject.cpp
+	"detectObject.h"
+	"cv.h"
+	"highgui.h"
+	<stdio.h>
+
+1417126519 /home/pointbach/Escritorio/Server/detectObject.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1417124950 source:/home/pointbach/Escritorio/Server/ImageUtils_0.7.cpp
+	"ImageUtils.h"
+
+1417124950 /home/pointbach/Escritorio/Server/ImageUtils.h
+	<cv.h>
+	<cxcore.h>
+	<highgui.h>
+	<stdio.h>
+	<conio.h>
+	<direct.h>
+	<stdio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<vector>
+	<string>
+	<iostream>
+
+1417655872 source:/home/pointbach/Escritorio/Server/main.cpp
+	<stdlib.h>
+	<errno.h>
+	<string.h>
+	<sys/types.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/wait.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<iostream>
+	<string>
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	<opencv2/objdetect/objdetect.hpp>
+	<iostream>
+	<vector>
+	<stdio.h>
+	<vector>
+	<string>
+	<iostream>
+	"opencv2/opencv.hpp"
+	"preprocessFace.h"
+	"recognition.h"
+	"ImageUtils.h"
+
+1417116321 /home/pointbach/Escritorio/Server/preprocessFace.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1417116321 /home/pointbach/Escritorio/Server/recognition.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1417362938 source:/home/pointbach/Escritorio/Server/preprocessFace.cpp
+	"detectObject.h"
+	"preprocessFace.h"
+	"ImageUtils.h"
+
+1417114681 source:/home/pointbach/Escritorio/Server/recognition.cpp
+	"recognition.h"
+	"ImageUtils.h"
+
+1417313622 source:/home/pointbach/Escritorio/Server1/detectObject.cpp
+	"detectObject.h"
+	"cv.h"
+	"highgui.h"
+	<stdio.h>
+
+1417126519 /home/pointbach/Escritorio/Server1/detectObject.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1417124950 source:/home/pointbach/Escritorio/Server1/ImageUtils_0.7.cpp
+	"ImageUtils.h"
+
+1417124950 /home/pointbach/Escritorio/Server1/ImageUtils.h
+	<cv.h>
+	<cxcore.h>
+	<highgui.h>
+	<stdio.h>
+	<conio.h>
+	<direct.h>
+	<stdio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<vector>
+	<string>
+	<iostream>
+
+1417362938 source:/home/pointbach/Escritorio/Server1/preprocessFace.cpp
+	"detectObject.h"
+	"preprocessFace.h"
+	"ImageUtils.h"
+
+1417116321 /home/pointbach/Escritorio/Server1/preprocessFace.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1417798817 source:/home/pointbach/Escritorio/Server1/recognition.cpp
+	"recognition.h"
+	"ImageUtils.h"
+
+1417116321 /home/pointbach/Escritorio/Server1/recognition.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1417808437 source:/home/pointbach/Escritorio/Server1/main.cpp
+	<stdlib.h>
+	<errno.h>
+	<string.h>
+	<sys/types.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/wait.h>
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<iostream>
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	<opencv2/objdetect/objdetect.hpp>
+	<iostream>
+	<vector>
+	<stdio.h>
+	<vector>
+	<string>
+	<iostream>
+	"opencv2/opencv.hpp"
+	"preprocessFace.h"
+	"recognition.h"
+	"ImageUtils.h"
+
+1417313622 source:/home/pointbach/Electronica/Digitales 3/TP_OPCV/Server1/detectObject.cpp
+	"detectObject.h"
+	"cv.h"
+	"highgui.h"
+	<stdio.h>
+
+1417126519 /home/pointbach/Electronica/Digitales 3/TP_OPCV/Server1/detectObject.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1417124950 source:/home/pointbach/Electronica/Digitales 3/TP_OPCV/Server1/ImageUtils_0.7.cpp
+	"ImageUtils.h"
+
+1417124950 /home/pointbach/Electronica/Digitales 3/TP_OPCV/Server1/ImageUtils.h
+	<cv.h>
+	<cxcore.h>
+	<highgui.h>
+	<stdio.h>
+	<conio.h>
+	<direct.h>
+	<stdio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<vector>
+	<string>
+	<iostream>
+
+1417362938 source:/home/pointbach/Electronica/Digitales 3/TP_OPCV/Server1/preprocessFace.cpp
+	"detectObject.h"
+	"preprocessFace.h"
+	"ImageUtils.h"
+
+1417116321 /home/pointbach/Electronica/Digitales 3/TP_OPCV/Server1/preprocessFace.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1417798817 source:/home/pointbach/Electronica/Digitales 3/TP_OPCV/Server1/recognition.cpp
+	"recognition.h"
+	"ImageUtils.h"
+
+1417116321 /home/pointbach/Electronica/Digitales 3/TP_OPCV/Server1/recognition.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1417313622 source:/home/pointbach/Escritorio/TP_OPCV/Server1/detectObject.cpp
+	"detectObject.h"
+	"cv.h"
+	"highgui.h"
+	<stdio.h>
+
+1417126519 /home/pointbach/Escritorio/TP_OPCV/Server1/detectObject.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1417124950 source:/home/pointbach/Escritorio/TP_OPCV/Server1/ImageUtils_0.7.cpp
+	"ImageUtils.h"
+
+1417124950 /home/pointbach/Escritorio/TP_OPCV/Server1/ImageUtils.h
+	<cv.h>
+	<cxcore.h>
+	<highgui.h>
+	<stdio.h>
+	<conio.h>
+	<direct.h>
+	<stdio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<vector>
+	<string>
+	<iostream>
+
+1418608841 source:/home/pointbach/Escritorio/TP_OPCV/Server1/preprocessFace.cpp
+	"detectObject.h"
+
+1418608841 /home/pointbach/Escritorio/TP_OPCV/Server1/preprocessFace.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1418607971 source:/home/pointbach/Escritorio/TP_OPCV/Server1/recognition.cpp
+	"recognition.h"
+	"ImageUtils.h"
+
+1418592825 /home/pointbach/Escritorio/TP_OPCV/Server1/recognition.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1418611119 source:/home/pointbach/Escritorio/TP_OPCV/Server1/main.cpp
+	<stdlib.h>
+	<errno.h>
+	<string.h>
+	<sys/types.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/wait.h>
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	<opencv2/objdetect/objdetect.hpp>
+	<iostream>
+	<vector>
+	<string>
+	"opencv2/opencv.hpp"
+	"preprocessFace.h"
+	"recognition.h"
+	<unistd.h>
+	<sys/stat.h>
+
+1417313622 source:/home/pointbach/Escritorio/Andando/Version 3/Server1/detectObject.cpp
+	"detectObject.h"
+	"cv.h"
+	"highgui.h"
+	<stdio.h>
+
+1417126519 /home/pointbach/Escritorio/Andando/Version 3/Server1/detectObject.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1418784854 source:/home/pointbach/Escritorio/Andando/Version 3/Server1/main.cpp
+	<stdlib.h>
+	<errno.h>
+	<string.h>
+	<sys/types.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/wait.h>
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	<opencv2/objdetect/objdetect.hpp>
+	<iostream>
+	<vector>
+	<string>
+	"opencv2/opencv.hpp"
+	"preprocessFace.h"
+	"recognition.h"
+	<unistd.h>
+	<sys/stat.h>
+
+1418608841 /home/pointbach/Escritorio/Andando/Version 3/Server1/preprocessFace.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1418592825 /home/pointbach/Escritorio/Andando/Version 3/Server1/recognition.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1418608841 source:/home/pointbach/Escritorio/Andando/Version 3/Server1/preprocessFace.cpp
+	"detectObject.h"
+
+1418607971 source:/home/pointbach/Escritorio/Andando/Version 3/Server1/recognition.cpp
+	"recognition.h"
+	"ImageUtils.h"
+
+1417124950 /home/pointbach/Escritorio/Andando/Version 3/Server1/ImageUtils.h
+	<cv.h>
+	<cxcore.h>
+	<highgui.h>
+	<stdio.h>
+	<conio.h>
+	<direct.h>
+	<stdio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<vector>
+	<string>
+	<iostream>
+
+1418908505 source:/home/pointbach/Escritorio/Version 3/Server1/detectObject.cpp
+	"detectObject.h"
+	"cv.h"
+	"highgui.h"
+	<stdio.h>
+
+1418908505 /home/pointbach/Escritorio/Version 3/Server1/detectObject.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1418910392 source:/home/pointbach/Escritorio/Version 3/Server1/preprocessFace.cpp
+	"detectObject.h"
+
+1418911217 source:/home/pointbach/Escritorio/Version 3/Server1/recognition.cpp
+	"recognition.h"
+
+1418908505 /home/pointbach/Escritorio/Version 3/Server1/recognition.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+
+1417124950 /home/pointbach/Escritorio/Version 3/Server1/ImageUtils.h
+	<cv.h>
+	<cxcore.h>
+	<highgui.h>
+	<stdio.h>
+	<conio.h>
+	<direct.h>
+	<stdio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<vector>
+	<string>
+	<iostream>
+
+1418912276 source:/home/pointbach/Escritorio/Version 3/Server1/main.cpp
+	<errno.h>
+	<string.h>
+	<sys/types.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/wait.h>
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	<opencv2/objdetect/objdetect.hpp>
+	<iostream>
+	<vector>
+	<string>
+	<sys/stat.h>
+	<sys/ipc.h>
+	"opencv2/opencv.hpp"
+	"preprocessFace.h"
+	"recognition.h"
+
+1418909545 /home/pointbach/Escritorio/Version 3/Server1/preprocessFace.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"opencv2/opencv.hpp"
+

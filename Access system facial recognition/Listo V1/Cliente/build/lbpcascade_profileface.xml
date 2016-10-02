@@ -1,0 +1,97 @@
+<!--
+    This is 20x34 detector of profile faces using LBP features.
+    It was created by Attila Novak during GSoC 2012.
+    Note that the detector only detects faces rotated to the right,
+    so you may want to run it on the original and on
+    the flipped image to detect different profile faces.
+-->
+<?xml version="1.0"?>
+<opencv_storage>
+<cascade>
+  <stageType>BOOST</stageType>
+  <featureType>LBP</featureType>
+  <height>34</height>
+  <width>20</width>
+  <stageParams>
+    <boostType>GAB</boostType>
+    <minHitRate>9.9500000476837158e-001</minHitRate>
+    <maxFalseAlarm>3.0000001192092896e-001</maxFalseAlarm>
+    <weightTrimRate>9.4999999999999996e-001</weightTrimRate>
+    <maxDepth>1</maxDepth>
+    <maxWeakCount>100</maxWeakCount></stageParams>
+  <featureParams>
+    <maxCatCount>256</maxCatCount>
+    <featSize>1</featSize></featureParams>
+  <stageNum>16</stageNum>
+  <stages>
+    <!-- stage 0 -->
+    <_>
+      <maxWeakCount>4</maxWeakCount>
+      <stageThreshold>-5.9480339288711548e-001</stageThreshold>
+      <weakClassifiers>
+        <_>
+          <internalNodes>
+            0 -1 114 -2360321 -82228595 -771518211 -713436773
+            -1060447799 -810385271 -2004135683 -2566104</internalNodes>
+          <leafValues>
+            -8.0942183732986450e-001 5.9530025720596313e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 54 -649134608 -1060077114 1375916272 -719981432
+            1073801352 33024 281198795 -5246465</internalNodes>
+          <leafValues>
+            -7.7979278564453125e-001 5.4052764177322388e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 12 -960266913 -495857599 -1068498864 -867970987
+            457398579 -1174173695 1749041235 1849162079</internalNodes>
+          <leafValues>
+            -8.0028575658798218e-001 5.0435048341751099e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 120 -1228145793 -807247727 18059735 -138644520
+            998980043 -41250583 673112549 -1930366540</internalNodes>
+          <leafValues>
+            -7.7902388572692871e-001 4.9006074666976929e-001</leafValues></_></weakClassifiers></_>
+    <!-- stage 1 -->
+    <_>
+      <maxWeakCount>6</maxWeakCount>
+      <stageThreshold>-5.4879629611968994e-001</stageThreshold>
+      <weakClassifiers>
+        <_>
+          <internalNodes>
+            0 -1 6 -254346881 -746143606 -1039596583 1963430479
+            -263790449 -1073545213 698505999 -1349357</internalNodes>
+          <leafValues>
+            -6.6315788030624390e-001 6.0000002384185791e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 112 -134225985 -684228389 -988213089 -684716007
+            -1966960899 -896630615 152815840 -864497420</internalNodes>
+          <leafValues>
+            -7.0195454359054565e-001 5.8843690156936646e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 53 -35923461 520818827 -1862167847 856916291 68141197
+            2072530978 304306417 526079163</internalNodes>
+          <leafValues>
+            -6.4593964815139771e-001 5.7274609804153442e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 101 -2097665 -1781432163 588321018 -1677405808
+            -1968469982 -1450147831 -1467632684 -593693808</internalNodes>
+          <leafValues>
+            -7.2959578037261963e-001 4.9470889568328857e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 79 -205847273 -1088716541 285266431 1393693056
+            293931101 -1634205688 -452263692 -111136684</internalNodes>
+          <leafValues>
+            -7.0331865549087524e-001 5.2564400434494019e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 126 579801457 -670613495 -1065269989 -117095565
+            -1295163359 -779534335 -1744220101 -1355860</internalNodes>
+          <leafValues>
+            -7.5121974945068359e-001 4.5217981934547424e-001</leafValues></_></weakClassifiers></_>
+    <!-- stage 2 -->

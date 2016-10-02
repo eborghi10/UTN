@@ -1,0 +1,1 @@
+/home/pointbach/Escritorio/Andando/Version 3/Cliente2/build/CMakeFiles/WebcamFaceRec.dir

@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<!--
+number of positive samples 3000
+number of negative samples 1500
+-->
+<opencv_storage>
+<cascade type_id="opencv-cascade-classifier">
+  <stageType>BOOST</stageType>
+  <featureType>LBP</featureType>
+  <height>24</height>
+  <width>24</width>
+  <stageParams>
+    <boostType>GAB</boostType>
+    <minHitRate>0.9950000047683716</minHitRate>
+    <maxFalseAlarm>0.5000000000000000</maxFalseAlarm>
+    <weightTrimRate>0.9500000000000000</weightTrimRate>
+    <maxDepth>1</maxDepth>
+    <maxWeakCount>100</maxWeakCount></stageParams>
+  <featureParams>
+    <maxCatCount>256</maxCatCount></featureParams>
+  <stageNum>20</stageNum>
+  <stages>
+    <!-- stage 0 -->
+    <_>
+      <maxWeakCount>3</maxWeakCount>
+      <stageThreshold>-0.7520892024040222</stageThreshold>
+      <weakClassifiers>
+        <!-- tree 0 -->
+        <_>
+          <internalNodes>
+            0 -1 46 -67130709 -21569 -1426120013 -1275125205 -21585
+            -16385 587145899 -24005</internalNodes>
+          <leafValues>
+            -0.6543210148811340 0.8888888955116272</leafValues></_>
+        <!-- tree 1 -->
+        <_>
+          <internalNodes>
+            0 -1 13 -163512766 -769593758 -10027009 -262145 -514457854
+            -193593353 -524289 -1</internalNodes>
+          <leafValues>
+            -0.7739216089248657 0.7278633713722229</leafValues></_>
+        <!-- tree 2 -->
+        <_>
+          <internalNodes>
+            0 -1 2 -363936790 -893203669 -1337948010 -136907894
+            1088782736 -134217726 -741544961 -1590337</internalNodes>
+          <leafValues>
+            -0.7068563103675842 0.6761534214019775</leafValues></_></weakClassifiers></_>
+    <!-- stage 1 -->
+    <_>
+      <maxWeakCount>4</maxWeakCount>
+      <stageThreshold>-0.4872078299522400</stageThreshold>
+      <weakClassifiers>
+        <!-- tree 0 -->
+        <_>
+          <internalNodes>
+            0 -1 84 2147483647 1946124287 -536870913 2147450879
+            738132490 1061101567 243204619 2147446655</internalNodes>
+          <leafValues>
+            -0.8083735704421997 0.7685696482658386</leafValues></_>
+        <!-- tree 1 -->
+        <_>
+          <internalNodes>
+            0 -1 21 2147483647 263176079 1879048191 254749487 1879048191
+            -134252545 -268435457 801111999</internalNodes>
+          <leafValues>
+            -0.7698410153388977 0.6592915654182434</leafValues></_>
+        <!-- tree 2 -->
+        <_>
+          <internalNodes>
+            0 -1 106 -98110272 1610939566 -285484400 -850010381
+            -189334372 -1671954433 -571026695 -262145</internalNodes>
+          <leafValues>
+            -0.7506558895111084 0.5444605946540833</leafValues></_>
+        <!-- tree 3 -->
+        <_>
+          <internalNodes>
+            0 -1 48 -798690576 -131075 1095771153 -237144073 -65569 -1
+            -216727745 -69206049</internalNodes>
+          <leafValues>
+            -0.7775990366935730 0.5465461611747742</leafValues></_></weakClassifiers></_>
+    <!-- stage 2 -->
+    <_>
+      <maxWeakCount>4</maxWeakCount>
+      <stageThreshold>-1.1592328548431396</stageThreshold>
+      <weakClassifiers>
+        <!-- tree 0 -->
+        <_>
+          <internalNodes>
+            0 -1 47 -21585 -20549 -100818262 -738254174 -20561 -36865
+            -151016790 -134238549</internalNodes>
+          <leafValues>
+            -0.5601882934570313 0.7743113040924072</leafValues></_>
+        <!-- tree 1 -->
+        <_>
+          <internalNodes>
+            0 -1 12 -286003217 183435247 -268994614 -421330945
+            -402686081 1090387966 -286785545 -402653185</internalNodes>
+          <leafValues>
+            -0.6124526262283325 0.6978127956390381</leafValues></_>
+        <!-- tree 2 -->
+        <_>
+          <internalNodes>
+            0 -1 26 -50347012 970882927 -50463492 -1253377 -134218251
+            -50364513 -33619992 -172490753</internalNodes>
+          <leafValues>
+            -0.6114496588706970 0.6537628173828125</leafValues></_>
+        <!-- tree 3 -->
+        <_

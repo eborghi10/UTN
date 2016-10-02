@@ -1,0 +1,1 @@
+/home/pointbach/Escritorio/Listo V2/Server/build/CMakeFiles/ServidorV1.dir

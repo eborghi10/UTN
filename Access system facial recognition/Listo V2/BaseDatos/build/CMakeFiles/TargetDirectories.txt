@@ -1,0 +1,1 @@
+/home/pointbach/Escritorio/Listo V2/BaseDatos/build/CMakeFiles/BDV2.dir

@@ -1,0 +1,1 @@
+/home/pointbach/Escritorio/Listo V1/Cliente/build2/CMakeFiles/Cliente.dir
